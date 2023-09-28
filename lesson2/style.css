@@ -1,0 +1,19 @@
+p {
+	color: darkcyan;
+	font-size: 18px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+strong {
+	font-size: 30px;
+	color: blueviolet;
+}
+
+img {
+	border-radius: 30px;
+}
+
+body {
+	background-color: bisque;
+	padding: 0 50px;
+}
