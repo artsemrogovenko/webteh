@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // оздать страницу, которая спрашивает имя у пользователя и выводит его с помощью функции. 
+        let name = prompt('Как вас зовут?');
+        console.log(!name.trim() == '');
+
+
+        function printName() {
+            alert(`Привет ${name}`);
+        }
+
+        // if (Number(name)) { //простая проверка
+        if (parseInt(name.replace(/\D/g, '')) || name.trim() == '') { //сложная проверка на содержание цифры в строке и на пустоту
+            alert(' Это точно имя? ');
+        } else {
+            printName();
+        }
+    </script>
+
+</body>
+</html>
