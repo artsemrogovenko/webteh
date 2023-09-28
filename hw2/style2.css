@@ -1,0 +1,50 @@
+.sample{
+    float: left;
+    margin: 50px;
+    height: 200px;
+    width: 200px;
+    padding: 5px; 
+    display: flex; 
+    vertical-align: middle;
+}
+
+.sample img{
+    width: 300px;  
+}
+
+body{
+    background: rgb(99, 143, 109);
+    background-repeat: repeat;
+}
+
+.header .container{
+align-items: center;
+}
+
+.data-storage{
+    margin: 20px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20 16px;
+    width: 60%;
+}
+
+.data-storage img  {
+    width: 200px;
+    margin: 20px;
+}
+
+.inf{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ 
+
+  .info div {
+    flex :content; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+  }
